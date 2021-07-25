@@ -38,3 +38,57 @@ person['name'] = 'Fede';
 
 console.log(person);
 console.log(person.name);
+
+
+//Array 
+let selectedColors = ['red','blue'];
+//All Colors
+console.log(selectedColors)
+//A Position
+console.log(selectedColors[0]);
+
+
+//Add element to the array - Dynamic 
+selectedColors[2] = 'Green'
+console.log(selectedColors);
+
+selectedColors[3]= 1;
+console.log(selectedColors);
+console.log(selectedColors[3]);
+
+//Numbers of elements in the array
+console.log(selectedColors.length);
+
+
+//Function
+
+function greet() {
+console.log('Hello World');
+}
+
+greet();
+
+
+//Inputs on the function 
+
+function greetA(name, lastName) {
+    console.log('Hello ' + name +' '+ lastName);
+    }
+    
+    greetA('John', 'Maru');
+
+//Types of Function 
+function square(number){
+    return number*number;
+}
+
+console.log(square(2));
+
+//SUM
+
+function sumA(numberA, numberB){
+    result =  numberA + numberB;
+    console.log('This is your result = ' + result)
+}
+
+sumA(3,5);
